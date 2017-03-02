@@ -34,7 +34,7 @@ $this->phrasen['bewerbung/ausbildung']='Ausbildung zu Ihrer Zugangsvoraussetzung
 
 $this->phrasen['bewerbung/erfolgreichBeworben']='Sie haben sich erfolgreich für das Bachelor – Studium Humanmedizin in der jeweiligen Vertiefungsrichtung an unserer Universität beworben. Weitere Details bezüglich des Aufnahmeprocedere entnehmen Sie dem Antwortmail auf Ihre Bewerbung bzw. weiteren Info-Mails unseres Dekanats.';
 
-$this->phrasen['bewerbung/erklaerungBewerbungAbschicken']='Schicken Sie Ihre Bewerbung ab, wenn Sie alle Daten vervollständigt und alle erforderlichen Dokumente hochgeladen haben. Bitte beachten Sie, dass nicht vorliegende Dokumente nachgereicht werden können.';
+$this->phrasen['bewerbung/erklaerungBewerbungAbschicken']='Schicken Sie Ihre Bewerbung ab, wenn Sie alle Daten vervollständigt und alle erforderlichen Dokumente hochgeladen haben.<br><br>Bitte beachten Sie, dass nicht vorliegende Dokumente nachgereicht werden können.';
 
 
 ?>
