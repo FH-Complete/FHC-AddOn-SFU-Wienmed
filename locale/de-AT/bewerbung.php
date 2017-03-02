@@ -17,18 +17,13 @@ $this->phrasen['bewerbung/accountVorhanden']='Da Sie bereits als InteressentIn b
 $this->phrasen['bewerbung/erklaerungBewerbungAbschicken']='Wenn Sie alle Daten vervollständigt haben, können Sie Ihre Bewerbung abschicken.';
 $this->phrasen['bewerbung/erfolgreichBeworben']='Sie haben sich erfolgreich für %s an unserer Universität beworben. Weitere Details bezüglich des Aufnahmeprocedere werden Ihnen fristgerecht per Email übermittelt.';
 
-$this->phrasen['bewerbung/sieKoennenMaximalXStudiengaengeWaehlen']='Bitte beachten Sie, dass Sie mit Ihrer Bewerbung bereits eine Vertiefungsrichtung (Humanmedizin oder Zahnmedizin) wählen.<br>
-Ein Antrag auf Wechsel der Vertiefungsrichtung nach der Immatrikulation muss jeweils bis spätestens 15. Februar schriftlich beim Studiengangsleiter eingereicht werden und kann nur bewilligt werden, wenn folgende Bedingungen erfüllt sind:<br>
-1. erfolgreich abgeschlossenes 1. respektive 2. Studienjahr
-2. Vorhandensein eines freien Studienplatzes der gewählten Fachrichtung im entsprechenden Studienjahr';
+$this->phrasen['bewerbung/sieKoennenMaximalXStudiengaengeWaehlen']='Bitte beachten Sie, dass Sie mit Ihrer Bewerbung bereits eine Vertiefungsrichtung (Humanmedizin oder Zahnmedizin) wählen.<br>Ein Antrag auf Wechsel der Vertiefungsrichtung nach der Immatrikulation muss jeweils bis spätestens 15. Februar schriftlich beim Studiengangsleiter eingereicht werden und kann nur bewilligt werden, wenn folgende Bedingungen erfüllt sind:<br>1. erfolgreich abgeschlossenes 1. respektive 2. Studienjahr <br>2. Vorhandensein eines freien Studienplatzes der gewählten Fachrichtung im entsprechenden Studienjahr';
 
 $this->phrasen['bewerbung/allgemeineErklaerung']='Wir freuen uns, dass Sie sich für das Bachelor-Studium Humanmedizin an der SFU Med interessieren.<br>
-Wenn Sie mehr Informationen benötigen, steht Ihnen unser Studierenden Office unter info@med.sfu.ac.at gerne zur Verfügung.<br><br>
-Bitte füllen Sie das Formular vollständig aus. Wenn Sie alles ausgefüllt und hochgeladen haben, können Sie mit „Abschließen“ Ihre Bewerbung an unser Studierenden Office schicken.';
+Wenn Sie mehr Informationen benötigen, steht Ihnen unser Studierenden Office unter info@med.sfu.ac.at gerne zur Verfügung.<br><br>Bitte füllen Sie das Formular vollständig aus. Wenn Sie alles ausgefüllt und hochgeladen haben, können Sie mit „Abschließen“ Ihre Bewerbung an unser Studierenden Office schicken.';
 $this->phrasen['bewerbung/berufstaetigkeit']='Allfällige Berufstätigkeit (Bitte beachten Sie, dass unser Studium als Vollzeit-Studium konzipiert ist. Die Angabe Ihrer allfälligen Berufstätigkeit dient rein statistischen Zwecken und ist nicht verpflichtend.)';
 
-$this->phrasen['bewerbung/bitteDokumenteHochladen']='Untenstehend finden Sie eine Auflistung der für Ihr Studium an der SFU Med erforderlichen Dokumente. Bitte schicken Sie unbedingt alle Dokumente, die Sie zur Zeit der Bewerbung zur Verfügung haben.<br><br>
-Darüber hinaus haben Sie auch die Möglichkeit, Dokumente nachzureichen. Klicken Sie dazu das Symbol „Dokument wird nachgereicht“ (Sanduhr) an. Sie haben hier auch die Möglichkeit, eine kurze Begründung einzutragen.';
+$this->phrasen['bewerbung/bitteDokumenteHochladen']='Untenstehend finden Sie eine Auflistung der für Ihr Studium an der SFU Med erforderlichen Dokumente. Bitte schicken Sie unbedingt alle Dokumente, die Sie zur Zeit der Bewerbung zur Verfügung haben.<br><br>Darüber hinaus haben Sie auch die Möglichkeit, Dokumente nachzureichen. Klicken Sie dazu das Symbol „Dokument wird nachgereicht“ (Sanduhr) an. Sie haben hier auch die Möglichkeit, eine kurze Begründung einzutragen.';
 
 $this->phrasen['bewerbung/dokumenteZumHochladen']='Erforderliche Dokumente:';
 
