@@ -37,5 +37,5 @@ $this->phrasen['bewerbung/erfolgreichBeworben']='Sie haben sich erfolgreich für
 
 $this->phrasen['bewerbung/erklaerungBewerbungAbschicken']='Schicken Sie Ihre Bewerbung ab, wenn Sie alle Daten vervollständigt und alle erforderlichen Dokumente hochgeladen haben.<br><br>Bitte beachten Sie, dass nicht vorliegende Dokumente nachgereicht werden können.';
 
-
+$this->phrasen['bewerbung/paymentInfoText']='Die Gebühr für das Aufnahmeverfahren der SFU Med beträgt 650€.<br>Wir weisen darauf hin, dass alle BewerberInnen automatisch für das Aufnahmeverfahren eingeteilt werden.<br>Sollten Sie sich entschließen, nicht an unserem Aufnahmeverfahren teilnehmen zu wollen, ist eine Abmeldung elektronisch an med-accounting@sfu.ac.at bis spätestens 15.Juni möglich.<br>Bei fristgerechter Abmeldung ist die Rückerstattung der Aufnahmegebühr, abzüglich einer Bearbeitungsgebühr von 50€, möglich. Wir bitten um Verständnis, dass eine Abmeldung nach dem 15.Juni nicht mehr angenommen werden kann.';
 ?>
