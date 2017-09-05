@@ -22,13 +22,13 @@
  */
 /**
  * Generiert die UID für Studierende
- * FORMAT: sfumed160001
+ * FORMAT: 1700001
  */
 function generateUID($stgkzl,$jahr, $stgtyp, $matrikelnummer)
 {
 	$db = new basis_db();
-        $uid = 'sfumed'.date('y');
-        $qry="SELECT substring(uid,8) as lastid FROM public.tbl_benutzer WHERE uid like '".$db->db_escape($uid)."%' ORDER BY 1 desc LIMIT 1";
+        $uid = ''.date('y');
+        $qry="SELECT substring(uid,3) as lastid FROM public.tbl_benutzer WHERE uid like '".$db->db_escape($uid)."%' ORDER BY 1 desc LIMIT 1";
         $lastid=0;
         if($result = $db->db_query($qry))
         {
@@ -41,7 +41,7 @@ function generateUID($stgkzl,$jahr, $stgtyp, $matrikelnummer)
         {
                 die('Fehler beim Generieren der UID');
         }
-        $uid.= sprintf('%04s',($lastid+1));
+        $uid.= sprintf('%05s',($lastid+1));
         return $uid;
 }
 

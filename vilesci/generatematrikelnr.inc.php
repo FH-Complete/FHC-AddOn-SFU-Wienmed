@@ -21,22 +21,20 @@
 
 /**
  * Benutzerdefinierte Funktion zur Generierung der Matrikelnummern
- * Muster: SFUxxjjnnnn
- * xx = Standort (z.B. WI für Wien; MED f. Medizin)
+ * Muster: jjnnnnn
  * jj = Jahr des Studienbeginns
- * nnnn = fortlaufende Nummer
+ * nnnnn = fortlaufende Nummer
  */
 function generateMatrikelnr($oe_kurzbz)
 {
 
 
-    $matrnr = 'SFUMED' . date('y');
+    $matrnr = '' . date('y');
 
     $db = new basis_db();
-    $qry = "SELECT substring(matr_nr, 8) as lastid "
+    $qry = "SELECT substring(matr_nr, 3) as lastid "
             . "FROM public.tbl_person "
             . "WHERE matr_nr LIKE '".$db->db_escape($matrnr)."%' "
-            . "AND length(matr_nr) = 11 "
             . "ORDER BY 1 desc LIMIT 1";
 
     $lastid = 0;
@@ -52,6 +50,6 @@ function generateMatrikelnr($oe_kurzbz)
         die('Fehler beim Generieren der Matrikelnummer');
     }
 
-    $matrnr.= sprintf('%04s', ($lastid + 1));
+    $matrnr.= sprintf('%05s', ($lastid + 1));
     return $matrnr;
 }
