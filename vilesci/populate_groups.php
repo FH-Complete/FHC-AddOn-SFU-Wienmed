@@ -47,7 +47,7 @@ $semester = NULL;
 if (isset($_REQUEST["sem"]) && $_REQUEST["sem"] > 0)
 	$semester = $_REQUEST["sem"];
 // TODO: Studiengang und Studiensemester auswählbar machen
-$studiengang_kz = 1;
+$studiengang_kz = 401;
 $studiensemester_kurzbz = 'WS2017';
 
 $groups = new gruppe();
