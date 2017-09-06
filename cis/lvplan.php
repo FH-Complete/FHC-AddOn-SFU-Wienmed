@@ -85,22 +85,25 @@ else
 <tbody>
 <tr>
 <td class="cmscontent" valign="top">
-
 <?php
-		echo'
-		<h2>'.$p->t('lvplan/persoenlichenAbonnieren').'</h2>
-		<div>
-		<a class="Item" href="../../../cms/content.php?content_id='.$p->t('dms_link/lvplanSyncFAQ').'" target="_blank">'.$p->t('lvplan/anleitungLVPlanSync').'</a>
-		<br>';
+        echo'
+        <h2>'.$p->t('lvplan/persoenlichenAbonnieren').'</h2>
+        <div>
+        <a class="Item" href="../../../cms/content.php?content_id='.$p->t('dms_link/lvplanSyncFAQ').'" target="_blank">'.$p->t('lvplan/anleitungLVPlanSync').'</a>
+        <br><br>';
 
-		echo '<ul>';
-		$caldavurl = APP_ROOT.'webdav/lvplan.php/calendars/'.$uid.'/LVPlan-'.$uid;
-	  	echo '<li><a class="Item" href="'.$caldavurl.'">'.$p->t('lvplan/caldavURL').'</a></li>';
-	  	echo '<li><a class="Item" href="'.APP_ROOT.'webdav/lvplan.php/principals/'.$uid.'">'.$p->t('lvplan/caldavURLMac').'</a></li>';
-	  	echo '<li><a class="Item" href="'.APP_ROOT.'webdav/google.php?cal='.encryptData($uid,LVPLAN_CYPHER_KEY).'&'.microtime(true).'">'.$p->t('lvplan/googleURL').'</a></li>';
-	  	echo '</ul>';
-	  	echo '	</div>';
+        echo '<table>';
+        $caldavurl = APP_ROOT.'webdav/lvplan.php/calendars/'.$uid.'/LVPlan-'.$uid;
+        echo '<tr><td colspan="2"><b>Android</b><br>Installieren Sie eine CalDav-Sync-App (z.B. CalDAV Sync Free Beta) aus dem Play-Store und fügen Sie einen Account mit folgender URL hinzu:</td></tr>';
+        echo '<tr><td valign="top">'.$p->t('lvplan/caldavURL').':</td><td>'.$caldavurl.'<br><br></td></tr>';
+        echo '<tr><td colspan="2"><b>IPhone</b><br>fügen Sie unter Einstellungen einen Kalender-Account vom Typ CalDav mit folgender URL hinzu:</td></tr>';
+        echo '<tr><td valign="top">'.$p->t('lvplan/caldavURLMac').':</td><td>'.APP_ROOT.'webdav/lvplan.php/principals/'.$uid.'<br><br></td></tr>';
+        echo '<tr><td colspan= "2"><b>Andere Kalenderapplikationen (Outlook, Google ...)</b><br>verbinden Sie folgende URL als ICAL/Internetkalender:</td></tr>';
+        echo '<tr><td><a class="Item" href="'.APP_ROOT.'webdav/google.php?cal='.encryptData($uid,LVPLAN_CYPHER_KEY).'&'.microtime(true).'">'.$p->t('lvplan/googleURL').'</a>:</td><td>'.APP_ROOT.'webdav/google.php?cal='.encryptData($uid,LVPLAN_CYPHER_KEY).'&'.microtime(true).'</td></tr>';
+        echo '</table>';
+        echo '  </div>';
 ?>
+
 </td>
 </tr>
 </tbody>

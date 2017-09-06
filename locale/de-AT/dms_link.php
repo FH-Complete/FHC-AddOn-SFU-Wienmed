@@ -19,6 +19,6 @@ $this->phrasen['dms_link/lvPlanFAQ']='0'; //Hilfe-Link aus dem LV-Plan in die LV
 $this->phrasen['dms_link/veranstaltungsleitfaden']='0'; //Link zum Veranstaltungsleitfaden aus dem Eventkalender (CMS-ID)
 $this->phrasen['dms_link/bildRichtlinien']='0'; //Link zu den Bild Richtlinen zB bei Bildupload im Profil (CMS-ID)
 $this->phrasen['dms_link/sicherheitAnDerFHTW']='6765'; //Link zum Hauptpunkt "Sicherheit an der FHTW" aus dem Ersthelfer-Skript
-$this->phrasen['dms_link/lvplanSyncFAQ']='0'; //Link zur Anleitung zur Kalender Abbonierung
+$this->phrasen['dms_link/lvplanSyncFAQ']='157'; //Link zur Anleitung zur Kalender Abbonierung
 $this->phrasen['dms_link/profilhilfe']=''; //Hilfe-Link aus dem Profil
 ?>
