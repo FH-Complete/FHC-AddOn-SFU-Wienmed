@@ -41,6 +41,8 @@ if (!$db = new basis_db())
 if (!$uid=get_uid())
 	die('Sie sind nicht angemeldet. Es wurde keine Benutzer UID gefunden ! <a href="javascript:history.back()">Zur&uuml;ck</a>');
 
+if($berechtigung->isBerechtigt('admin') && $_GET['uid'])
+        $uid = $_GET["uid"];
 
 $sql_query="SELECT titelpre, titelpost, uid, nachname, vorname FROM campus.vw_benutzer WHERE uid LIKE '$uid'";
 	//echo $sql_query;
