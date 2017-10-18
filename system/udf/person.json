@@ -1,0 +1,58 @@
+[{
+	"name": "udf_abrechnungstarif",
+	"sort": 1, "type": "dropdown",
+	"title": "udf/abrechnungstarifTitle",
+	"listValues": {"enum": ["Prof", "ao Prof", "Univ.Dozent", "AssistenzprofessorIn", "Oberarzt", "Facharzt",  "Assistent"]},
+	"validation": {"regex": [{"language": "php", "expression": "/^[a-zA-Z.]+$/"}, {"language": "js", "expression": "/[a-zA-Z.]*/"}], "required": false},
+	"description": "udf/abrechnungstarifDescription",
+	"placeholder": "udf/abrechnungstarifPlaceholder",
+	"defaultValue": ""
+},
+{
+	"name": "udf_funktionsbezeichnung",
+	"sort": 5, "type": "textfield",
+	"title": "udf/funktionsbezeichnungTitle",
+	"description": "udf/funktionsbezeichnungDescription",
+	"placeholder": "udf/funktionsbezeichnungPlaceholder",
+	"defaultValue": ""
+},
+{
+	"name": "udf_abteilung",
+	"sort": 4, "type": "textfield",
+	"title": "udf/abteilungTitle",
+	"description": "udf/abteilungDescription",
+	"placeholder": "udf/abteilungPlaceholder",
+	"defaultValue": ""
+},
+{
+	"name": "udf_modul",
+	"sort": 6, "type":
+	"multipledropdown",
+	"title": "udf/modulTitle",
+	"listValues": {"enum": ["B1","B2","BH3","BZ3","POL","BH5","BZ5","B6","B7","B8","B9","B10","B11-1","B11-2","B12","B13","B14-1","B14-2","B15","B16","B17","B18","B19","B20","B21","B22","B23","BZ23","B24","B25","LAT","WF Neuropathologie"]},
+	"validation": {"regex": [{"language": "php",
+	"expression": "/^[0-9a-zA-Z -]+$/"}, {"language": "js",
+	"expression": "/[0-9a-zA-Z -]*/"}], "required": false},
+	"description": "udf/modulDescription",
+	"placeholder": "udf/modulPlaceholder", 
+	"defaultValue": ""
+},
+{
+	"name":
+	"udf_lehrstuhl", "sort": 3, "type": "textfield",
+	"title": "udf/lehrstuhlTitle",
+	"description": "udf/lehrstuhlDescription",
+	"placeholder": "udf/lehrstuhlPlaceholder",
+	"defaultValue": ""
+},
+{
+	"name": "udf_abrechnung",
+	"sort": 2,
+	"type": "dropdown",
+	"title": "udf/abrechnungTitle",
+	"listValues": {"enum": ["Berufen - Honorarnote", "Berufen - Vertrag", "Berufen - Sonderstatus", "Honorarnote"]},
+	"validation": {"regex": [{"language": "php", "expression": "/^[a-zA-Z -]+$/"}, {"language": "js", "expression": "/[a-zA-Z -]*/"}], "required": false},
+	"description": "udf/abrechnungDescription",
+	"placeholder": "udf/abrechnungPlaceholder",
+	"defaultValue": ""
+}]
