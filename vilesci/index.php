@@ -42,4 +42,5 @@ if(!$rechte->isBerechtigt('basis/addon'))
 echo '<!-- <a href="../dbcheck.php">Update Datenkbank</a>-->';
 echo '<br><a href="populate_groups.php">Gruppenzuordnungen</a>';
 echo '<br><a href="reset_password.php">Passwort zurücksetzen</a>';
+echo '<br><a href="lvgesamtnoteverwalten.php">Noten importieren</a>'
 ?>
